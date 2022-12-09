@@ -1,0 +1,10 @@
+.cover {
+  min-width: 320px;
+  max-width: 1184px;
+  position: relative;
+  height: auto;
+  margin: auto;
+  margin-top: 92px;
+  font-family: "Inter", arial, sans-serif;
+  text-align: center;
+}
