@@ -20,3 +20,10 @@
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   }
 }
+
+@media screen and (max-width: 320px) {
+  .collage__list {
+    gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  }
+}
