@@ -11,3 +11,18 @@
 .place:first-child {
   padding-top: 92px;
 }
+
+@media screen and (max-width: 768px) {
+  .place {
+    padding-top: 73px;
+    padding-right: 24px;
+    padding-left: 24px;
+    grid-column-gap: 28px;
+  }
+  .place:first-child{
+    padding-top: 88px;
+  }
+  .place:last-child{
+    padding-top: 75px;
+  }
+}

@@ -8,3 +8,17 @@
   padding-left: 48px;
   margin: auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding-top: 78px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 74px;
+  }
+}

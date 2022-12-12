@@ -51,7 +51,7 @@
 
 
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/footer/__copy/footer__copy.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/nav/nav.css');
 @import url('../blocks/nav/__list/nav__list.css');
 @import url('../blocks/nav/__link/nav__link.css');

@@ -4,3 +4,9 @@
   font-family: "Inter", arial, sans-serif;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .lead {
+    padding-top: 48px;
+  }
+}

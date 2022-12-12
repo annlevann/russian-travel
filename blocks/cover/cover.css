@@ -8,3 +8,9 @@
   font-family: "Inter", arial, sans-serif;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-top: 90px;
+  }
+}
