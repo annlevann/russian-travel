@@ -23,6 +23,15 @@
   }
 }
 
+@media screen and (max-width: 720px) {
+  .footer {
+    display: block;
+    padding-top: 64px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer {
     display: block;
@@ -31,3 +40,5 @@
     padding-bottom: 24px;
   }
 }
+
+

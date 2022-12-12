@@ -6,6 +6,18 @@
   text-align: center;
 }
 
+@media screen and (max-width: 496px) {
+  .cover__title {
+    max-width: 500px;
+    font-weight: 900;
+    font-size: 59px;
+    line-height: 55px;
+    margin-left: 16px;
+    margin-right: 16px;
+
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: 288px;
@@ -17,3 +29,4 @@
 
   }
 }
+

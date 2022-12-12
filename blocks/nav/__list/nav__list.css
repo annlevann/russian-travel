@@ -6,9 +6,18 @@
   gap: 18px;
 }
 
+@media screen and (max-width: 720px) {
+  .nav__list{
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
   .nav__list{
     flex-direction: column;
     gap: 32px;
   }
 }
+
