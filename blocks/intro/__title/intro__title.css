@@ -5,8 +5,16 @@
   font-weight: 900;
 }
 
+@media screen and (max-width: 397px) {
+  .intro__title {
+    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (397 - 320)));
+    line-height: 1.1;
+  }
+}
+
 @media screen and (max-width:320px) {
   .intro__title {
+    width: 288px;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;

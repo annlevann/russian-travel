@@ -7,6 +7,14 @@
   text-align: center;
 }
 
+@media screen and (max-width: 570px) {
+  .cover__text {
+    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (570 - 320)));
+    line-height: 1.22;
+  }
+}
+
+/*
 @media screen and (max-width: 444px) {
   .cover__text {
     max-width: 290px;
@@ -16,7 +24,7 @@
     margin-top: 16px;
   }
 }
-
+*/
 @media screen and (max-width: 320px) {
   .cover__text {
     max-width: 288px;

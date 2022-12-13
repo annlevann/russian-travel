@@ -21,11 +21,14 @@
   }
 }
 
+@media screen and (max-width: 397px) {
+  .intro{
+    margin-top: calc(64px + (92 - 64) * ((100vw - 320px) / (397 - 320)));
+  }
+}
+
 @media screen and (max-width:320px) {
   .intro {
-    margin-top: 64px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 0;
+    margin: 64px 16px 0 16px;
   }
 }
