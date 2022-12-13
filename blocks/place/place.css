@@ -27,14 +27,25 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 368px) {
   .place {
-    grid-template-rows: repeat(2, min-content);
-    grid-row-gap: 32px;
     padding-right: 16px;
     padding-left: 16px;
-    padding-top: 50px;
   }
 }
+
+@media screen and (max-width: 352px) {
+  .place {
+    padding-top: 50px;
+    padding-right: 0;
+    padding-left: 0;
+    gap: 31px;
+  }
+
+  .place:first-child {
+    padding-top: 64px;
+  }
+}
+
 
 

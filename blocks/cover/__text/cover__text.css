@@ -7,6 +7,16 @@
   text-align: center;
 }
 
+@media screen and (max-width: 444px) {
+  .cover__text {
+    max-width: 290px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__text {
     max-width: 288px;
