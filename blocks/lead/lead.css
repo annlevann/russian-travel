@@ -1,8 +1,8 @@
 .lead {
   padding-top: 56px;
+  text-align: center;
   color: #fff;
   font-family: "Inter", arial, sans-serif;
-  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

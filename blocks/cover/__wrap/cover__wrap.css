@@ -1,13 +1,11 @@
 .cover__wrap {
   position: absolute;
+  max-width: 560px;
+  width: 100%;
   z-index: 2;
   top: 50%;
   left: 50%;
-  max-width: 560px;
-  width: 100%;
-  height: auto;
   color: #fff;
   transform: translate(-50%, -50%);
 }
-
 

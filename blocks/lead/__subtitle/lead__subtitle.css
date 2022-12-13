@@ -15,52 +15,9 @@
 @media screen and (max-width: 710px) {
   .lead__subtitle {
     font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (710 - 320)));
-    line-height: 1.25;
+    line-height: 1.20;
   }
 }
-
-/*
-@media screen and (max-width:720px) {
-  .lead__subtitle {
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 40px;
-    margin-top: 28px;
-    margin-bottom: 40px;
-  }
-}
-
-@media screen and (max-width:433px) {
-  .lead__subtitle {
-    max-width: 370px;
-    font-weight: 360;
-    font-size: 22px;
-    line-height: 35px;
-    margin-top: 16px;
-    margin-bottom: 40px;
-  }
-}
-
-@media screen and (max-width:411px) {
-  .lead__subtitle {
-    font-weight: 350;
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: 16px;
-    margin-bottom: 40px;
-  }
-}
-
-@media screen and (max-width:324px) {
-  .lead__subtitle {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    margin-top: 16px;
-    margin-bottom: 40px;
-  }
-}
- */
 
 @media screen and (max-width:320px) {
   .lead__subtitle {

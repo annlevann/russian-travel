@@ -6,13 +6,6 @@
   font-family: 'Inter', arial, sans-serif;
   margin-top: 18px;
 }
-/*
-@media screen and (max-width: 720px) {
-  .footer__copyright {
-    margin-top: 50px;
-  }
-}
-*/
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
