@@ -6,22 +6,3 @@
   transition: opacity 0.6s linear;
   color: #fff;
 }
-
-.place__link:hover {
-  opacity: 0.7;
-}
-
-@media screen and (max-width: 352px) {
-  .place__link {
-    margin-right: 16px;
-    margin-left: 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__link {
-    max-width: 288px;
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-}

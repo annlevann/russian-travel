@@ -5,7 +5,6 @@
   text-decoration: none;
   transition: opacity .5s linear;
   color: #fff;
-  font-family: 'Inter', arial, sans-serif;
 }
 
 .header__lang-link:hover {

@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 570px) {
   .cover__text {
-    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (570 - 320)));
+    font-size: 16px;
     line-height: 1.20;
   }
 }

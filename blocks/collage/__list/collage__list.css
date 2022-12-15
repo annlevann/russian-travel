@@ -10,20 +10,17 @@
 @media screen and (max-width: 1024px) {
   .collage__list {
     gap: 14px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   }
 }
 
 @media screen and (max-width: 768px) {
   .collage__list {
     gap: 16px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   }
 }
 
 @media screen and (max-width: 320px) {
   .collage__list {
     gap: 12px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   }
 }
