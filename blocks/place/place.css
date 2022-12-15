@@ -5,7 +5,7 @@
   font-family: 'Inter', arial, sans-serif;
   grid-column-gap: 40px;
   grid-row-gap: 48px;
-  grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+  grid-template-columns: 460px 1fr;
 }
 
 .place:first-child {
