@@ -20,5 +20,3 @@
 * БЭМ
 
 https://annlevann.github.io/russian-travel/
-
-
