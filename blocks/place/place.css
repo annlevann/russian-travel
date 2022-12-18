@@ -37,20 +37,18 @@
 
 @media screen and (max-width: 640px) {
   .place {
-    padding-right: 16px;
-    padding-left: 16px;
+    padding: 0;
     grid-template-columns: 320px;
     grid-row-gap: 32px;
   }
 
   .place:first-child {
-    padding-top: 64px;
+    padding-top: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
-    padding-right: 0;
-    padding-left: 0;
+    padding: 0;
   }
 }

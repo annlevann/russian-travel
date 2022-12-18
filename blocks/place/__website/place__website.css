@@ -3,9 +3,15 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 352px) {
+@media screen and (max-width: 640px) {
   .place__website {
-    padding-right: 16px;
     padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
